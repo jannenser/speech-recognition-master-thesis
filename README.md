@@ -11,3 +11,11 @@ Implements a Seq2Seq Attention model to translate the Swiss German into the Stan
 Implements SpellChecker to check if Swiss German can be transcribed into German easier
 Seq2Seq Attention model architecture
 ![My Seq2Seq](seq2seq.png)
+
+## Files
+1. Substitution of numbers in text; spell_numbers_in_german.ipynb
+3. Main jupyter notebook with both data preparation and model training; audio_model_training_master_thesis.ipynb
+4. Building and integration of KenLM Language Model;  
+5. Testing the sample audio data code;  beam_search_decoder_ASR_master_thesis.ipynb
+6. Integration with TelegramBot, accomplished by Viktoryia Kananchuk.
+7. Seq2seq Attn NMT model training and inference + spellchecker; seq2seq_translation_swiss.ipynb
